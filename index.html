@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soporte Técnico Pro</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#packs">Packs</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><button id="modoToggle">🌙</button></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Soporte Técnico Profesional</h1>
+      <p>Seguridad, confiabilidad y exactitud para tu PC.</p>
+      <a href="#contacto" class="cta-button">Solicitar Servicio</a>
+    </div>
+  </section>
+
+  <div class="container">
+    <section id="servicios" class="section" data-aos="fade-up">
+      <h2>🔧 Servicios</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Reparación y diagnóstico</h3>
+          <ul>
+            <li>Solución de errores del sistema</li>
+            <li>Reemplazo de piezas (consultar)</li>
+            <li>Chequeo de discos, RAM y placa madre</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Soporte remoto y presencial</h3>
+          <ul>
+            <li>Conexión segura por TeamViewer / AnyDesk</li>
+            <li>Atención rápida y confiable</li>
+            <li>Documentación de cambios</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="packs" class="section" data-aos="fade-up">
+      <h2>📦 Packs</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Pack 1: Optimización de Sistema</h3>
+          <ul>
+            <li>Instalación de SO y drivers</li>
+            <li>Programas esenciales</li>
+            <li>BIOS y hardware actualizados</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Pack 2: Limpieza & Mantenimiento</h3>
+          <ul>
+            <li>Limpieza física y cambio de pasta térmica</li>
+            <li>Chequeo de componentes</li>
+            <li>Optimización de cables y testeo</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Pack 3: Full</h3>
+          <ul>
+            <li>Incluye Pack 1 + Pack 2</li>
+            <li>Descuento por combo</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section" data-aos="fade-up">
+      <h2>❓ Preguntas Frecuentes</h2>
+      <details><summary>¿Dónde se realiza el servicio?</summary><p>Podés acercar tu equipo al taller o solicitar asistencia remota.</p></details>
+      <details><summary>¿Cuánto tarda una reparación?</summary><p>Depende del caso, pero suele resolverse en 24 a 72hs.</p></details>
+    </section>
+
+    <section id="contacto" class="section" data-aos="fade-up">
+      <h2>📞 Contacto</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Tu nombre" required />
+        <input type="email" placeholder="Tu correo" required />
+        <textarea rows="4" placeholder="¿En qué podemos ayudarte?" required></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+      <div id="alerta" class="oculto">¡Mensaje enviado! Te responderemos pronto.</div>
+      <p>O escribinos directo por WhatsApp: <a href="https://wa.me/5492213629366">2213629366</a></p>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 Servicio Técnico Pro. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
